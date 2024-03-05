@@ -1,0 +1,32 @@
+.hero{
+    background: url("../images/IMAGE.jpg") no-repeat center; 
+    margin-top: 25px;
+}
+
+.hero__title{
+    margin-left: 20px;
+    font-size: 55px;
+    color: aliceblue;
+    max-width: 628px;
+    margin-bottom: 350px;
+}
+
+.hero__advertising{
+    margin-left: 10%;
+    margin-bottom: 40p
+}
+
+.hero__advertising__title{
+    color: white;
+    font-size: 30px;
+}
+
+.hero__advertising__info{
+    color: rgb(182, 171, 157);
+    font-size: 25px;
+    max-width: 265px;
+    max-height: 60px;
+    margin-bottom: 40px;
+}
+
+@media
