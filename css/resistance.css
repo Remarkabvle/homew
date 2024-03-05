@@ -1,0 +1,59 @@
+.resistance__card{
+    border: 1px solid gray;
+    border-radius: 20px;
+    width: 522px;
+    height: 460px;
+    margin-bottom: 100px;
+}
+
+.resistance{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.resistance__card img{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.resistance__card__title{
+    padding-left: 50px;
+    font-size: 46px;
+    max-width: 462px;
+    align-items: center;
+    max-height: 116px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+
+.resistance__card__text{
+    align-items: center;
+    color: gray;
+    max-width: 534px;
+    max-height: 120px;
+    align-items: center;    
+    padding-left: 80px;
+}
+
+@media (max-width: 540px){
+    .resistance__card{
+        width: 100%;
+    }
+}
+
+.info{
+    max-width: 1161px;
+    max-height: 204px;
+    border: greenyellow solid 1px;
+    border-radius: 20px;
+    background: greenyellow;
+
+}
